@@ -15,8 +15,8 @@ html {
 }
 
 body {
-  background-color: #fffccc;
-  color: saddlebrown;
+  background-color: #3f3f3f;
+  color: #efefef;
   font-family: Cormorant-Garamond, serif;
   /*display: flex;
   justify-content: center;
@@ -28,20 +28,30 @@ body {
   text-align: center;
 }
 
+.h_margins {
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
+
+.links_margins {
+  margin-top: 5%;
+  margin-bottom: 10%
+}
+
 a {
-  color: saddlebrown;
+  color: #efefef;
   font-family: Cormorant-Garamond, serif;
 }
 
 .inner_1 {
   margin: 0 auto;
-  border-style: outset;
+  /*border-style: outset;
   border-width: 2px;
-  border-color: #e5e4e2;
+  border-color: #e5e4e2;*/
   /*box-shadow: 10px 10px;*/
   width: fit-content;
   max-height: 100%;
-  overflow-x: scroll;
+  /*overflow-x: scroll;*/
   word-wrap: break-word;
   padding: 0.75%;
 }
